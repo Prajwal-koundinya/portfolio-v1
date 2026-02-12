@@ -1,4 +1,4 @@
-# EinCode Architecture Documentation
+# PKCode Architecture Documentation
 
 ## Overview
 

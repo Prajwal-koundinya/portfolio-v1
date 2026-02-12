@@ -38,6 +38,7 @@ export function HeroSection() {
     <section className="relative px-4 sm:px-6 pt-28 sm:pt-36 pb-16 sm:pb-24">
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-20 lg:items-center lg:min-h-[70vh]">
+
           {/* Left column - Text */}
           <div className="space-y-8 sm:space-y-10">
             <div className="space-y-3 animate-fade-in-up">
@@ -47,9 +48,7 @@ export function HeroSection() {
               <h1 className="text-4xl font-bold tracking-tight sm:text-4xl lg:text-5xl xl:text-6xl text-balance">
                 Hii, I am Prajwal Koundinya
                 <br />
-                <span
-                  className="bg-gradient-to-l from-primary/50 to-accent text-transparent bg-clip-text typing-cursor"
-                >
+                <span className="bg-gradient-to-l from-primary/50 to-accent text-transparent bg-clip-text typing-cursor">
                   {displayText}
                 </span>
               </h1>
@@ -66,7 +65,6 @@ export function HeroSection() {
               >
                 <span className="relative z-10">explore artifacts</span>
                 <span className="relative z-10 transition-transform duration-300 group-hover:translate-x-1">→</span>
-                {/* Animated background */}
                 <span className="absolute inset-0 -translate-x-full bg-primary transition-transform duration-500 group-hover:translate-x-0" />
               </a>
               <Link
@@ -81,70 +79,57 @@ export function HeroSection() {
             </div>
           </div>
 
-          {/* Right column - ASCII Art / Visual */}
+          {/* Right column - ASCII Art */}
           <div className="relative animate-scale-in stagger-4">
             <div className="relative rounded-xl border border-border bg-card/60 glass p-5 sm:p-8 hover-lift">
-              {/* Terminal header dots */}
+
               <div className="absolute top-4 left-4 flex items-center gap-2">
-                <div className="h-3 w-3 rounded-full bg-destructive/60 transition-colors hover:bg-destructive" />
-                <div className="h-3 w-3 rounded-full bg-yellow-500/60 transition-colors hover:bg-yellow-500" />
-                <div className="h-3 w-3 rounded-full bg-primary/60 transition-colors hover:bg-primary" />
+                <div className="h-3 w-3 rounded-full bg-destructive/60" />
+                <div className="h-3 w-3 rounded-full bg-yellow-500/60" />
+                <div className="h-3 w-3 rounded-full bg-primary/60" />
               </div>
+
               <div className="absolute top-3.5 left-1/2 -translate-x-1/2 bg-background/50 rounded-md px-3 py-1 font-mono text-xs text-muted-foreground">
                 terminal://pkcode
               </div>
 
-              <pre className="mt-6 overflow-hidden font-mono text-[10px] leading-relaxed text-primary/80 sm:text-xs md:text-sm">
-                <span className="sm:hidden">{`┌───────────────────────┐
-│  ██████╗███████╗      │
-│ ██╔════╝██╔════╝      │
-│ ██║     █████╗        │
-│ ██║     ██╔══╝        │
-│ ╚██████╗██║           │
-│  ╚═════╝╚═╝           │
-│                       │
-│  > experiments: 12    │
-│  > status: forging    │
-└───────────────────────┘`}</span>
-                <span className="hidden sm:block">{`┌─────────────────────────────────────┐
-│                                     │
-│  ██████╗ ██████╗ ██████╗ ███████╗   │
-│ ██╔════╝██╔═══██╗██╔══██╗██╔════╝   │
-│ ██║     ██║   ██║██║  ██║█████╗     │
-│ ██║     ██║   ██║██║  ██║██╔══╝     │
-│ ╚██████╗╚██████╔╝██████╔╝███████╗   │
-│  ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝   │
-│           Ein                       │
-│                                     │
-│   > experiments loaded: 12          │
-│   > status: forging                 │
-│   > last spark: today               │
-│                                     │
-└─────────────────────────────────────┘`}</span>
+              <pre
+                className="mt-6 overflow-hidden text-xs leading-none text-primary/80 sm:text-sm md:text-base whitespace-pre"
+                style={{ fontFamily: "Courier New, Courier, monospace" }}
+              >
+{`
+        ┌────────────────────────────────────────┐           
+        |                                        │           
+        |    ██████╗  ██████╗ ██████╗  ███████╗  │
+        |   ██╔════╝ ██╔═══██╗██╔═══██╝██╔════╝  │
+        |   ██║      ██║   ██║██║   ██╗█████╗    │
+        |   ██║      ██║   ██║██║   ██╗██╔══╝    │
+        |   ╚██████╗ ╚██████╔╝╚██████╗╚███████╗  │
+        |    ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝  │
+        |                                        │
+        |    > experiments loaded: 10            │
+        |    > status: forging                   │
+        |    > last spark: today                 │
+        |                                        │
+        └────────────────────────────────────────┘
+`}
               </pre>
             </div>
 
-            <div className="absolute -right-2 sm:-right-6 -top-2 sm:-top-6 rounded-lg border border-primary/40 bg-primary/15 glass px-3 sm:px-4 py-1.5 font-mono text-[11px] sm:text-xs text-primary animate-float">
+            <div className="absolute -right-6 -top-6 rounded-lg border border-primary/40 bg-primary/15 glass px-4 py-1.5 font-mono text-xs text-primary animate-float">
               <span className="flex items-center gap-2">
                 <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
                 v0.1.0
               </span>
             </div>
-            <div
-              className="absolute -bottom-3 sm:-bottom-6 -left-2 sm:-left-6 rounded-lg border border-border bg-card glass px-3 sm:px-4 py-1.5 font-mono text-[11px] sm:text-xs text-muted-foreground animate-float"
-              style={{ animationDelay: "1s" }}
-            >
+
+            <div className="absolute -bottom-6 -left-6 rounded-lg border border-border bg-card glass px-4 py-1.5 font-mono text-xs text-muted-foreground animate-float">
               Dec. 2025
             </div>
 
             <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] rounded-full bg-primary/5 blur-3xl" />
           </div>
         </div>
-      </div>
-
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 hidden lg:flex flex-col items-center gap-2 animate-fade-in stagger-6">
-        <span className="font-mono text-xs text-muted-foreground">scroll</span>
-        <div className="w-px h-12 bg-gradient-to-b from-primary/50 to-transparent animate-pulse" />
       </div>
     </section>
   )

@@ -13,7 +13,7 @@
 
 \`\`\`bash
 # Clone repository
-git clone https://github.com/ehsanghaffar/code-forge.git
+git clone https://github.com/Prajwal-koundinya/portfolio-v1.git
 cd eincode
 
 # Install dependencies

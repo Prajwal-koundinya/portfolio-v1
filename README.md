@@ -1,88 +1,220 @@
-<<<<<<< HEAD
-# EinCode
+<div align="center">
 
-A modern, minimal code editor / playground built with Next.js, React and Radix UI.
+# 🚀 PKCode
 
-Version: `0.1.1`
+### *Prajwal Koundinya's AI Portfolio Experience*
 
-## What the project does
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Prajwal-koundinya/pkcode)
+[![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61dafb)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-Code Forge is a lightweight, opinionated editor UI and playground intended for experimenting with editor-like components and small developer tools. It demonstrates a modern stack including Next.js 16, React 19, TypeScript, Tailwind CSS and Radix UI primitives.
+**Build Intelligently. Engineer Responsibly. Deploy Confidently.**
 
-### Why this is useful
+[Live Demo](#) 
 
-- Fast developer playground to prototype editor UX and integrations.
-- Collection of reusable UI components (see `components/`).
-- Up-to-date with Next.js 16 and React 19 modern patterns (app router, server components).
-
-#### Key features
-
-- App shell and layout in `app/`
-- Reusable UI primitives under `components/` (cursor glow, header, footer, workbench, etc.)
-- Styling with Tailwind CSS and global styles in `styles/` and `app/globals.css`
-- TypeScript-first codebase
-
-##### Getting started
-
-Prerequisites
-
-- Node.js 18 or newer
-- pnpm (recommended) — install from <https://pnpm.io/>
-
-Quick start
-
-\`\`\`bash
-# install dependencies
-pnpm install
-
-# run development server
-pnpm dev
-\`\`\`
-
-Available scripts
-
-- `pnpm dev` — runs `next dev` (development server)
-- `pnpm build` — runs `next build` (production build)
-- `pnpm start` — runs `next start` (serve built app)
-- `pnpm lint` — run `eslint .`
-
-Building for production
-
-\`\`\`bash
-pnpm build
-pnpm start
-\`\`\`
-
-Project layout (high level)
-
-- `app/` — Next.js App Router pages and layout
-- `components/` — UI components and small feature pieces
-- `lib/` — utilities and helpers
-- `public/` — static assets
-- `styles/` — global styles and Tailwind CSS entry
-
-Where to get help
-
-- Create an issue: <https://github.com/ehsanghaffar/code-forge/issues>
-- For quick questions, open a discussion or file a concise issue with reproduction steps.
-
-Who maintains this project
-
-- Maintainer: Ehsan Ghaffar — listed as the package author.
-
-Contributing
-
-Contributions are welcome. Open an issue to discuss larger changes, or send a pull request with a focused, well-documented change. Keep changes small and include a description and screenshots (if UI-related).
-
-Notes and next steps
-
-- Consider adding a `CONTRIBUTING.md` and CI badges for build/lint status.
-- If you want, I can add a basic `CONTRIBUTING.md` and a PR template next.
+</div>
 
 ---
 
-If anything in this README should be adjusted (more examples, extra badges, or internal docs links), tell me which parts you want expanded and I'll update it.
-=======
-# portfolio-v1
-My personal portfolio
->>>>>>> fd4f8d3277ab202724d9070c4da32c64dd1500c6
+## 🎯 This is PKCode?
+
+PKCode is a **research-driven AI engineering portfolio** built to showcase production-ready machine learning systems that bridge the gap between theoretical research and real-world deployment.
+
+This is not just a static portfolio — it's an **interactive experience** reflecting how I think, experiment, build, and deploy intelligent systems. Every project featured demonstrates structured experimentation, strong mathematical foundations, and disciplined engineering execution.
+
+### 🔬 Core Focus Areas
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🧠 Deep Learning
+- Neural architecture design
+- Model optimization
+- Transfer learning
+
+</td>
+<td width="50%">
+
+#### 🏥 Medical Imaging AI
+- Disease detection systems
+- Segmentation models
+- Clinical AI deployment
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### 👁️ Computer Vision
+- Object detection
+- Image classification
+- Visual recognition systems
+
+</td>
+<td width="50%">
+
+#### ⚙️ MLOps & Deployment
+- Model versioning
+- CI/CD for ML
+- Production monitoring
+
+</td>
+</tr>
+</table>
+
+---
+
+## 💡 Why PKCode Exists
+
+> **The goal is simple:** Demonstrate the ability to move from theoretical understanding to deployable AI systems.
+
+Every project reflects:
+
+- ✅ **Structured Experimentation** — Hypothesis-driven development
+- ✅ **Mathematical Rigor** — Strong theoretical foundations
+- ✅ **Disciplined Debugging** — Systematic problem-solving
+- ✅ **Real-World Impact** — Solutions that scale
+
+---
+
+## 🛠️ Technology Stack
+
+<div align="center">
+
+### Languages & Frameworks
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+### AI/ML Stack
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
+
+### Tools & Platforms
+
+![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
+</div>
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** 18 or newer
+- **pnpm** (recommended) — [Install from pnpm.io](https://pnpm.io/)
+- **Git** for version control
+
+### Quick Start
+```bash
+# Clone the repository
+git clone https://github.com/Prajwal-koundinya/pkcode.git
+
+# Navigate to project directory
+cd pkcode
+
+# Install dependencies
+pnpm install
+
+# Run development server
+pnpm dev
+```
+
+Visit `http://localhost:3000` to see the portfolio in action! 🎉
+
+### Available Scripts
+
+| Command | Description |
+|---------|-------------|
+| `pnpm dev` | Start development server |
+| `pnpm build` | Create production build |
+| `pnpm start` | Serve production build |
+| `pnpm lint` | Run ESLint |
+
+### Building for Production
+```bash
+# Create optimized production build
+pnpm build
+
+# Start production server
+pnpm start
+```
+
+---
+
+## 🎓 Philosophy
+
+> **Build Intelligently. Engineer Responsibly. Deploy Confidently.**
+
+PKCode is not just a portfolio — it's **proof of concept**:
+
+- 📚 **Consistent Learning** — Staying at the cutting edge of AI research
+- 🔧 **Disciplined Execution** — From research paper to production code
+- 🚀 **Readiness to Scale** — Building systems that solve real problems
+
+This platform demonstrates:
+
+1. **Research-to-Production Pipeline** — Translating papers into deployable systems
+2. **End-to-End Ownership** — From data collection to model monitoring
+3. **Explainable AI First** — Interpretable models for high-stakes domains
+4. **Production Excellence** — Reliable, maintainable, scalable code
+
+---
+
+## 📬 Contact
+
+Interested in **collaborating**, **hiring**, or **discussing research opportunities**?
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Prajwal-koundinya)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prajwal-kowndinya-7506b4268/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+
+**Let's build something intelligent together.**
+
+</div>
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+
+### ⭐ If this portfolio inspires you, consider giving it a star!
+
+**Built with 🧠 by Prajwal Koundinya**
+
+*Transforming complex AI research into scalable, real-world solutions.*
+
+</div>
+
+

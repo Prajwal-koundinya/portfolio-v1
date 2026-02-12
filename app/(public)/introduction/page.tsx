@@ -9,20 +9,21 @@ export default function IntroductionPage() {
           <div className="space-y-6 sm:space-y-8">
             <div className="space-y-2">
               <p className="font-mono text-xs uppercase tracking-[0.2em] sm:tracking-[0.3em] text-muted-foreground">
-                Welcome to EinCode
+                Welcome to PkCode
               </p>
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl text-balance">
-                Where Code Meets{" "}
+                Where Code{" "}
                 <span className="bg-gradient-to-l from-primary/50 to-accent text-transparent bg-clip-text">
-                  Creativity
+                  Meets Creativity
                 </span>
               </h1>
             </div>
 
-            <p className="text-base sm:text-lg leading-relaxed text-muted-foreground max-w-3xl">
-              EinCode is a digital workshop and portfolio platform designed for developers who
-              believe in building in public. It&apos;s a space where ideas take shape, experiments
-              unfold, and open-source projects come to life.
+            <p className="text-base sm:text-lg leading-relaxed text-muted-foreground max-w-3xl text-justify">
+            Hii, I am Prajwal Koundinya. This is my portfolio, representing the work of an AI engineer focused on building  
+            intelligent systems that solve meaningful problems. It highlights expertise in deep learning, computer vision,
+            and end-to-end ML deployment, combining research precision with engineering execution. Each project is designed 
+            not just to demonstrate knowledge, but to showcase the ability to transform complex ideas into scalable, real-world solutions.
             </p>
           </div>
         </div>
@@ -42,24 +43,23 @@ export default function IntroductionPage() {
             </div>
 
             <div className="space-y-6 text-base sm:text-lg leading-relaxed text-muted-foreground">
-              <p>
-                EinCode isn&apos;t just another portfolio website—it&apos;s a living, breathing
-                showcase of continuous learning and experimentation. Built by developers, for
-                developers, it represents the philosophy that the best way to learn is to build,
-                share, and iterate.
+              <p className="text-justify">
+              This portfolio is not just a collection of projects, it is an experience 
+              thoughtfully built with a creative mindset to reflect how I approach engineering and problem-solving.
               </p>
 
-              <p>
-                Whether you&apos;re exploring cutting-edge AI integrations, diving into systems
-                programming, or looking for modern web development patterns, EinCode offers a window
-                into real-world projects at various stages of development—from initial experiments
-                to production-ready solutions.
+              <p className="text-justify">
+              It represents my journey as an AI engineer focused on building intelligent, real-world systems. 
+              I work across deep learning, computer vision, medical imaging, and end-to-end ML deployment, 
+              turning research concepts into functional, scalable applications. Each project here demonstrates 
+              structured experimentation, technical depth, and the discipline to iterate until solutions are reliable and production-ready.
               </p>
 
-              <p>
-                The platform is fully open-source, encouraging collaboration and knowledge sharing
-                within the developer community. Every project, every lab note, and every line of
-                code is designed to inspire and educate.
+              <p className="text-justify">
+                You should hire me because I combine strong theoretical foundations with practical execution.
+                I bring initiative, ownership, and the ability to execute end-to-end solutions. 
+                I am comfortable navigating ambiguity, iterating quickly, and learning aggressively.
+                If my work aligns with your vision, I welcome the opportunity to connect and collaborate.
               </p>
             </div>
           </div>
@@ -71,10 +71,10 @@ export default function IntroductionPage() {
         <div className="mx-auto max-w-6xl">
           <div className="mb-12 space-y-4 text-center">
             <p className="font-mono text-xs uppercase tracking-[0.2em] sm:tracking-[0.3em] text-primary">
-              Platform Features
+              My Skills
             </p>
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              Built for Modern Development
+              A Blend of Theory and Practice
             </h2>
           </div>
 

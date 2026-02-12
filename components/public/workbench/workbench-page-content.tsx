@@ -2,66 +2,43 @@
 
 import { useState, useEffect } from "react"
 import { cn } from "@/lib/utils"
-import { Github, ExternalLink, Clock, GitBranch, Activity } from "lucide-react"
+import { ExternalLink, Activity, Linkedin } from "lucide-react"
 
 const wipItems = [
   {
     id: 1,
-    name: "next16-docker-tw4-starter",
-    description: "Next.js 16 starter with App Router, Tailwind v4, Next-Auth v5, and Docker",
-    progress: 85,
-    lastUpdated: "Dec 2024",
-    url: "https://github.com/ehsanghaffar/next16-docker-tw4-starter",
-    branch: "main",
-    commits: 47,
+    name: "National Level Technical Paper Presentation – 1st Place",
+    description:
+      "After nearly a year of research, experimentation, and iterative refinement, I architected an explainable ensemble deep learning framework for brain tumor detection using ResNet50, EfficientNet-B0, and DenseNet121 integrated with Grad-CAM. The challenge involved balancing model diversity with interpretability while ensuring consistent clinical relevance across architectures. Competing against 60 national teams, this experience strengthened my research depth, analytical rigor, and ability to communicate complex AI systems with clarity and confidence.",
+    lastUpdated: "2025",
+    url: "https://www.linkedin.com/posts/thilakramalkar_machinelearning-deeplearning-artificialintelligence-ugcPost-7400435971936313344-XSbW?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEGZYiwBg3jAFFU6JapameZ_VscP4i-i20A",
+    icon: Linkedin,
   },
   {
     id: 2,
-    name: "handbuilt-linux",
-    description: "Minimal Linux distro from scratch with BusyBox and Syslinux bootloader",
-    progress: 60,
-    lastUpdated: "Nov 2025",
-    url: "https://github.com/ehsanghaffar/handbuilt-linux",
-    branch: "develop",
-    commits: 32,
+    name: "Startup Mahakumbh – Student Pitch Fest (Delhi)",
+    description:
+      "Selected among 100 colleges nationwide from over 10,000 delegates, I represented MIT Mysore as the only institution from Mysuru district to qualify. The evaluation process required technical clarity, feasibility validation, and strong articulation of innovation impact. Translating AI-driven solutions into a compelling, time-bound pitch under competitive scrutiny sharpened my ability to bridge engineering depth with strategic thinking and real-world applicability.",
+    lastUpdated: "2025",
+    url: "https://www.linkedin.com/posts/cse-ai-mitm_startupmahakumbh-pitchfest2025-krishimytra-ugcPost-7325893232544862209-9vkz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEGZYiwBg3jAFFU6JapameZ_VscP4i-i20A",
+    icon: Linkedin,
   },
   {
     id: 3,
-    name: "einbiogpt",
-    description: "AI-powered social media bio generator with MCP integration",
-    progress: 90,
-    lastUpdated: "Apr 2025",
-    url: "https://github.com/ehsanghaffar/einbiogpt",
-    branch: "main",
-    commits: 89,
-  },
-  {
-    id: 4,
-    name: "llm-practice",
-    description: "Self-hosted chatbot API with RAG and MCP protocol support",
-    progress: 75,
-    lastUpdated: "Apr 2025",
-    url: "https://github.com/ehsanghaffar/llm-practice",
-    branch: "feature/mcp",
-    commits: 56,
-  },
-  {
-    id: 5,
-    name: "einui",
-    description: "Liquid Glass UI components library built on Tailwind and shadcn/ui",
-    progress: 45,
-    lastUpdated: "Dec 2024",
-    url: "https://github.com/ehsanghaffar/einui",
-    branch: "main",
-    commits: 28,
+    name: "Hackshetra – 1st Place",
+    description:
+      "Won a 24-hour national hackathon against 120+ teams by engineering and optimizing a breast cancer detection model using thermal and ultrasound imaging. Under intense time constraints, the key challenge was ensuring strong generalization while handling noisy medical data and avoiding overfitting. This experience reinforced rapid decision-making, structured experimentation, and the ability to deliver reliable AI systems under pressure.",
+    lastUpdated: "2024",
+    url: "https://www.linkedin.com/posts/prajwal-kowndinya-7506b4268_mit-mysore-cse-ai-5th-semester-student-activity-7256307524046315520-oO7M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEGZYiwBg3jAFFU6JapameZ_VscP4i-i20A",
+    icon: Linkedin,
   },
 ]
 
-const recentActivity = [
-  { type: "commit", project: "einui", message: "Add new Button variants", time: "2 hours ago" },
-  { type: "branch", project: "llm-practice", message: "Created feature/mcp branch", time: "5 hours ago" },
-  { type: "commit", project: "einbiogpt", message: "Implement MCP protocol handlers", time: "1 day ago" },
-  { type: "commit", project: "handbuilt-linux", message: "Update kernel config", time: "2 days ago" },
+const internshipExperience = [
+  { point: "Developed strong proficiency in designing, training, and optimizing deep neural networks for real-world image analysis and predictive tasks, translating theoretical concepts into production-oriented solutions." },
+  { point: "Strengthened my understanding of data preprocessing and pipeline structuring, learning to handle noisy, imbalanced, and imperfect datasets that significantly impact model performance." },
+  { point: "Gained hands-on experience in model evaluation and fine-tuning, addressing challenges like overfitting, convergence instability, and performance trade-offs through systematic experimentation." },
+  { point: "Improved my ability to debug, iterate, and optimize under practical constraints, building resilience and disciplined problem-solving skills essential for industry-grade AI development." },
 ]
 
 export function WorkbenchPageContent() {
@@ -80,10 +57,9 @@ export function WorkbenchPageContent() {
           <p className="font-mono text-xs uppercase tracking-[0.25em] sm:tracking-[0.35em] text-primary">
             Work in Progress
           </p>
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">Achievements</h1>
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">Overall Journey and Experience</h1>
           <p className="max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed">
-            Active experiments and prototypes. Things that are being built, broken, and rebuilt. Real-time progress on
-            ongoing projects.
+          Research-driven systems, relentless iteration, and intelligent experiments evolving into real-world AI solutions.
           </p>
         </div>
 
@@ -103,7 +79,7 @@ export function WorkbenchPageContent() {
                   <div className="h-3 w-3 rounded-full bg-yellow-500/60 transition-colors hover:bg-yellow-500 cursor-pointer" />
                   <div className="h-3 w-3 rounded-full bg-primary/60 transition-colors hover:bg-primary cursor-pointer" />
                 </div>
-                <span className="ml-4 font-mono text-xs text-muted-foreground truncate">~/ehsanghaffar/active</span>
+                <span className="ml-4 font-mono text-xs text-muted-foreground truncate">~/prajwalkoundinya/active</span>
                 <div className="ml-auto flex items-center gap-2 text-muted-foreground">
                   <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
                   <span className="font-mono text-xs">live</span>
@@ -118,7 +94,7 @@ export function WorkbenchPageContent() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className={cn(
-                      "group flex flex-col gap-4 p-5 sm:p-6 transition-all duration-300 sm:flex-row sm:items-center sm:justify-between opacity-0",
+                      "group flex flex-col gap-4 p-6 sm:p-8 transition-all duration-300 opacity-0",
                       isVisible && "animate-fade-in",
                       hoveredItem === item.id && "bg-secondary/30",
                     )}
@@ -126,56 +102,28 @@ export function WorkbenchPageContent() {
                     onMouseEnter={() => setHoveredItem(item.id)}
                     onMouseLeave={() => setHoveredItem(null)}
                   >
-                    <div className="flex-1 space-y-2 min-w-0">
-                      <div className="flex items-center gap-3">
-                        <span className="text-primary font-mono text-sm shrink-0 transition-transform duration-300 group-hover:translate-x-1">
+                    <div className="flex-1 space-y-3 min-w-0">
+                      <div className="flex items-start gap-3">
+                        <span className="text-primary font-mono text-sm shrink-0 transition-transform duration-300 group-hover:translate-x-1 mt-0.5">
                           $
                         </span>
-                        <h4 className="font-mono text-sm font-medium tracking-tight transition-colors group-hover:text-gradient truncate">
-                          {item.name}
-                        </h4>
-                        <div className="flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                          <Github className="h-3.5 w-3.5 text-muted-foreground" />
-                          <ExternalLink className="h-3 w-3 text-muted-foreground" />
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center gap-3">
+                            <h4 className="font-mono text-sm sm:text-base font-medium tracking-tight transition-colors group-hover:text-gradient">
+                              {item.name}
+                            </h4>
+                            <div className="flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                              <ExternalLink className="h-3.5 w-3.5 text-muted-foreground" />
+                            </div>
+                          </div>
                         </div>
                       </div>
-                      <p className="pl-6 text-xs text-muted-foreground line-clamp-2 sm:line-clamp-1">
+                      <p className="pl-6 text-sm sm:text-base text-muted-foreground leading-relaxed">
                         {item.description}
                       </p>
-                      <div className="pl-6 flex items-center gap-4 text-xs text-muted-foreground">
-                        <span className="flex items-center gap-1">
-                          <GitBranch className="h-3 w-3" />
-                          {item.branch}
-                        </span>
-                        <span>{item.commits} commits</span>
-                      </div>
                     </div>
 
-                    <div className="flex items-center justify-between gap-6 pl-6 sm:pl-0 sm:justify-end">
-                      <div className="flex items-center gap-3 flex-1 sm:flex-none">
-                        <div className="h-2 w-full sm:w-28 overflow-hidden rounded-full bg-secondary/80 relative">
-                          <div
-                            className={cn(
-                              "h-full rounded-full transition-all duration-700 ease-out",
-                              item.progress >= 80
-                                ? "bg-primary"
-                                : item.progress >= 50
-                                  ? "bg-yellow-500"
-                                  : "bg-orange-500",
-                            )}
-                            style={{ width: `${item.progress}%` }}
-                          />
-                          <div className="absolute inset-0 animate-shimmer opacity-30" />
-                        </div>
-                        <span
-                          className={cn(
-                            "font-mono text-xs w-10 shrink-0 transition-colors",
-                            item.progress >= 80 ? "text-primary" : "text-muted-foreground",
-                          )}
-                        >
-                          {item.progress}%
-                        </span>
-                      </div>
+                    <div className="flex items-center justify-end pl-6">
                       <span className="font-mono text-xs text-muted-foreground shrink-0">{item.lastUpdated}</span>
                     </div>
                   </a>
@@ -194,54 +142,43 @@ export function WorkbenchPageContent() {
 
           {/* Sidebar */}
           <div className="space-y-6">
-            {/* Stats */}
+            {/* Work Experience */}
             <div
               className={cn(
                 "rounded-xl border border-border bg-card/40 glass p-5 opacity-0",
                 isVisible && "animate-fade-in-up stagger-3",
               )}
             >
-              <h3 className="font-mono text-xs uppercase tracking-wider text-primary mb-4">Stats</h3>
+              <h3 className="font-mono text-xs uppercase tracking-wider text-primary mb-4">Work Experience</h3>
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center p-3 rounded-lg bg-secondary/30">
-                  <p className="text-2xl font-bold text-foreground">{wipItems.length}</p>
-                  <p className="font-mono text-xs text-muted-foreground">Active</p>
+                  <p className="text-xl sm:text-2xl font-bold text-foreground">DL Intern at</p>
+                  <p className="font-mono text-xs text-muted-foreground mt-1">&nbsp;</p>
                 </div>
                 <div className="text-center p-3 rounded-lg bg-secondary/30">
-                  <p className="text-2xl font-bold text-primary">
-                    {Math.round(wipItems.reduce((a, b) => a + b.progress, 0) / wipItems.length)}%
-                  </p>
-                  <p className="font-mono text-xs text-muted-foreground">Avg Progress</p>
+                  <p className="text-xl sm:text-2xl font-bold text-primary">Runshaw.in</p>
+                  <p className="font-mono text-xs text-muted-foreground mt-1">&nbsp;</p>
                 </div>
               </div>
             </div>
 
-            {/* Recent Activity */}
+            {/* Internship Experience */}
             <div
               className={cn(
                 "rounded-xl border border-border bg-card/40 glass p-5 opacity-0",
                 isVisible && "animate-fade-in-up stagger-4",
               )}
             >
-              <h3 className="font-mono text-xs uppercase tracking-wider text-primary mb-4 flex items-center gap-2">
+              <h3 className="font-mono text-xs uppercase tracking-wider text-primary mb-5 flex items-center gap-2">
                 <Activity className="h-3.5 w-3.5" />
-                Recent Activity
+                Internship Experience
               </h3>
-              <div className="space-y-3">
-                {recentActivity.map((activity, index) => (
+              <div className="space-y-4">
+                {internshipExperience.map((experience, index) => (
                   <div key={index} className="flex items-start gap-3 text-xs">
-                    <span
-                      className={cn(
-                        "shrink-0 w-1.5 h-1.5 rounded-full mt-1.5",
-                        activity.type === "commit" ? "bg-primary" : "bg-yellow-500",
-                      )}
-                    />
+                    <span className="shrink-0 w-1.5 h-1.5 rounded-full mt-1.5 bg-primary" />
                     <div className="min-w-0 flex-1">
-                      <p className="text-foreground truncate">{activity.message}</p>
-                      <p className="text-muted-foreground flex items-center gap-1">
-                        <Clock className="h-3 w-3" />
-                        {activity.time}
-                      </p>
+                      <p className="text-foreground leading-relaxed text-sm">{experience.point}</p>
                     </div>
                   </div>
                 ))}

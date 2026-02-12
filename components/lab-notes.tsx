@@ -9,7 +9,7 @@ const notes = [
     title: "Emergence of AI Operating Systems",
     excerpt: "A paradigm shift where AI is deeply integrated into operating systems (OS), transforming intelligent agents and user interactions.",
     date: "Nov 2025",
-    category: "systems",
+    category: "OS",
     color: "from-blue-500/20 to-cyan-500/20",
   },
   {
@@ -23,18 +23,18 @@ const notes = [
   },
   {
     id: 3,
-    title: "Next.js 16 + Tailwind v4",
-    excerpt: "Exploring the new features in Next.js 16 and migrating to Tailwind CSS v4's new configuration system.",
-    date: "Dec 2024",
-    category: "frontend",
+    title: "Segment Anything in Specialized Domains",
+    excerpt: "Exploring how Segment Anything behaves on ultrasound and retinal scans, and its implications for volumetric image reconstruction",
+    date: "Feb 2025",
+    category: "computer-vision",
     color: "from-primary/20 to-emerald-500/20",
   },
   {
     id: 4,
     title: "Self-hosting LLMs with FastAPI",
     excerpt: "Running Llama2 locally and building a personal chatbot API for natural language tasks.",
-    date: "Oct 2023",
-    category: "ai",
+    date: "Oct 2024",
+    category: "llm-engineering",
     color: "from-orange-500/20 to-amber-500/20",
   },
 ]
@@ -49,7 +49,7 @@ export function LabNotes() {
           <p className="font-mono text-xs uppercase tracking-[0.25em] sm:tracking-[0.35em] text-primary">Field Notes</p>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">Lab Notes</h2>
           <p className="max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed">
-            Brief observations, technical findings, and thoughts from the workbench.
+            Brief observations, technical findings, and thoughts on interesting research topics.
           </p>
         </div>
 

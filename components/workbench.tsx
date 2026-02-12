@@ -6,16 +6,16 @@ const wipItems = [
     name: "National Level Technical Paper Presentation - 1st Place",
     description: "Presented a technical paper at a national-level competition and secured 1st place.",
     lastUpdated: "Nov 2025",
-    url: "https://www.linkedin.com/posts/thilakramalkar_machinelearning-deeplearning-artificialintelligence-ugcPost-7400435971936313344-XSbW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEGZYiwBg3jAFFU6JapameZ_VscP4i-i20A",
-    icon: Linkedin,
+    url: "https://drive.google.com/file/d/10LG5J7AUahtlkOk1ONHQpmsmv1tHTpsG/view",
+    icon: FileText,
   },
   {
     id: 2,
     name: "Startup Mahakumbh - Student Pitch Fest (Delhi)",
     description: "Selected among 100 colleges nationwide (10,000+ delegates) to represent MIT Mysore as the sole Mysuru qualifier at India's largest startup congregation.",
     lastUpdated: "Apr 2025",
-    url: "https://www.linkedin.com/posts/cse-ai-mitm_startupmahakumbh-pitchfest2025-krishimytra-ugcPost-7325893232544862209-9vkz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEGZYiwBg3jAFFU6JapameZ_VscP4i-i20A",
-    icon: Linkedin,
+    url: "https://drive.google.com/file/d/1M4nvD_bMlS-AaUpu2dftc1FdkPSkLkIP/view",
+    icon: FileText,
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ export function Workbench() {
           </p>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">Achievements</h2>
           <p className="max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed">
-            Active experimentations with life. Things that I have won and learned from.
+            Active experimentations with life. Things that I have won and learned from... so far.
           </p>
         </div>
 
