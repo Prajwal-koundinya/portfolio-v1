@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EinCode
 
 A modern, minimal code editor / playground built with Next.js, React and Radix UI.
@@ -81,3 +82,7 @@ Notes and next steps
 ---
 
 If anything in this README should be adjusted (more examples, extra badges, or internal docs links), tell me which parts you want expanded and I'll update it.
+=======
+# portfolio-v1
+My personal portfolio
+>>>>>>> fd4f8d3277ab202724d9070c4da32c64dd1500c6
