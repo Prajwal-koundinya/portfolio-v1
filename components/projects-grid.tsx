@@ -27,7 +27,7 @@ const projects = [
     tags: ["PyTorch", "CNN-Ensemble", "ResNet", "DenseNet", "EfficientNet", "Flask", "OpenCV"],
     status: "deep-learning",
     year: "2024",
-    stars: 14,
+    stars: 10,
     forks: 4,
     url: "https://github.com/Prajwal-koundinya/Diabetic-retinopathy-ensembleApproach",
     featured: true,
