@@ -215,5 +215,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 My personal portfolio. 
 >>>>>>> 6bb8f219a7a865aade3046a68c926c19810700c6
 =======
-# portfolio-v1
->>>>>>> 8d217b44250313462780f1432a943524d972f558
