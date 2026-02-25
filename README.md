@@ -13,8 +13,6 @@
 
 **Build Intelligently. Engineer Responsibly. Deploy Confidently.**
 
-[Live Demo](#) 
-
 </div>
 
 ---
