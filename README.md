@@ -1,5 +1,21 @@
 <div align="center">
 
+# 🚀 PKCode
+
+### *Prajwal Koundinya's AI Portfolio Experience*
+
+**Build Intelligently. Engineer Responsibly. Deploy Confidently.**
+
+</div> 
+
+---
+
+## 🎯 What is PKCode?
+
+PKCode is a **research-driven AI engineering portfolio** built to showcase production-ready machine learning systems that bridge the gap between theoretical research and real-world deployment. This is not just a static portfolio — it's an **interactive experience** reflecting how I think, experiment, build, and deploy intelligent systems. Every project featured demonstrates structured experimentation, strong mathematical foundations, and disciplined engineering execution.
+
+<div align="center">
+
 ```
 ┌────────────────────────────────────────┐
 │                                        │
