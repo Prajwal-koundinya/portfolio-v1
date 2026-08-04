@@ -1,217 +1,216 @@
-
 <div align="center">
 
-# 🚀 PKCode
+```
+┌────────────────────────────────────────┐
+│                                        │
+│    ██████╗  ██████╗ ██████╗  ███████╗  │
+│   ██╔════╝ ██╔═══██╗██╔═══██╝██╔════╝  │
+│   ██║      ██║   ██║██║   ██╗█████╗    │
+│   ██║      ██║   ██║██║   ██╗██╔══╝    │
+│   ╚██████╗ ╚██████╔╝╚██████╗╚███████╗  │
+│    ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝  │
+│                                        │
+│    > experiments loaded : 14           │
+│    > status             : forging      │
+│    > last spark         : today        │
+│                                        │
+└────────────────────────────────────────┘
+```
 
-### *Prajwal Koundinya's AI Portfolio Experience*
+# ⚡ PKCode — Prajwal Koundinya's Digital Laboratory
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Prajwal-koundinya/pkcode)
-[![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19-61dafb)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6)](https://www.typescriptlang.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+*A digital workshop where code meets curiosity.*
+*Experiments, prototypes, and open-source artifacts.*
 
-**Build Intelligently. Engineer Responsibly. Deploy Confidently.**
+[![Version](https://img.shields.io/badge/version-0.1.0-4ade80?style=flat-square&labelColor=0d0f12)](https://github.com/Prajwal-koundinya/portfolio-v1)
+[![Next.js](https://img.shields.io/badge/Next.js-16-ffffff?style=flat-square&logo=next.js&logoColor=white&labelColor=0d0f12)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react&logoColor=61dafb&labelColor=0d0f12)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6?style=flat-square&logo=typescript&logoColor=3178c6&labelColor=0d0f12)](https://www.typescriptlang.org/)
+[![Deployed on Vercel](https://img.shields.io/badge/deployed-vercel-4ade80?style=flat-square&logo=vercel&logoColor=white&labelColor=0d0f12)](https://prajwal-koundinya-portfolio.vercel.app/)
+[![License](https://img.shields.io/badge/license-MIT-64748b?style=flat-square&labelColor=0d0f12)](LICENSE)
+
+**[`> explore artifacts`](https://prajwal-koundinya-portfolio.vercel.app/#projects)   [`> introduction`](https://prajwal-koundinya-portfolio.vercel.app/introduction)   [`> connect`](mailto:prajwalkowndinya@gmail.com)**
 
 </div>
 
 ---
 
-## 🎯 This is PKCode?
+## `~/about`
 
-PKCode is a **research-driven AI engineering portfolio** built to showcase production-ready machine learning systems that bridge the gap between theoretical research and real-world deployment.
+PKCode is not a static resume page. It's an **interactive engineering portfolio** that reflects how I think, experiment, build, and ship intelligent systems. Every project on it demonstrates structured experimentation, real mathematical foundations, and disciplined execution from research paper to deployed artifact.
 
-This is not just a static portfolio — it's an **interactive experience** reflecting how I think, experiment, build, and deploy intelligent systems. Every project featured demonstrates structured experimentation, strong mathematical foundations, and disciplined engineering execution.
+```bash
+$ whoami
+> Prajwal Koundinya
+> Software Engineering student
+> Deep Learning · Agentic AI · MLOps · Mobile Apps
 
-### 🔬 Core Focus Areas
+$ pwd
+> /home/pkcode/digital-laboratory
 
-<table>
-<tr>
-<td width="50%">
-
-#### 🧠 Deep Learning
-- Neural architecture design
-- Model optimization
-- Transfer learning
-
-</td>
-<td width="50%">
-
-#### 🏥 Medical Imaging AI
-- Disease detection systems
-- Segmentation models
-- Clinical AI deployment
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### 👁️ Computer Vision
-- Object detection
-- Image classification
-- Visual recognition systems
-
-</td>
-<td width="50%">
-
-#### ⚙️ MLOps & Deployment
-- Model versioning
-- CI/CD for ML
-- Production monitoring
-
-</td>
-</tr>
-</table>
+$ ls -la focus/
+> deep-learning/        neural architecture, transfer learning, model optimization
+> medical-imaging-ai/   disease detection, segmentation, clinical deployment
+> computer-vision/      object detection, image classification, visual recognition
+> mlops/                model versioning, CI/CD for ML, production monitoring
+> mobile-apps/          cross-platform, offline-first, React Native + Android
+```
 
 ---
 
-## 💡 Why PKCode Exists
-
-> **The goal is simple:** Demonstrate the ability to move from theoretical understanding to deployable AI systems.
-
-Every project reflects:
-
-- ✅ **Structured Experimentation** — Hypothesis-driven development
-- ✅ **Mathematical Rigor** — Strong theoretical foundations
-- ✅ **Disciplined Debugging** — Systematic problem-solving
-- ✅ **Real-World Impact** — Solutions that scale
-
----
-
-## 🛠️ Technology Stack
+## `~/stack`
 
 <div align="center">
 
-### Languages & Frameworks
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-### Tools & Platforms
-
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 </div>
 
+```
+terminal://pkcode/stack
+
+  framework    →  Next.js 16 (App Router)
+  ui           →  React 19 + shadcn/ui
+  language     →  TypeScript 5.0
+  styling      →  Tailwind CSS + PostCSS
+  package mgr  →  pnpm
+  deployment   →  Vercel (continuous)
+  prototyping  →  v0.app
+```
+
 ---
 
-## 🚀 Getting Started
+## `~/artifacts`
+
+Projects featured on the portfolio — each one a real experiment, not a tutorial clone.
+
+| `#` | Project | Domain | Stack |
+|-----|---------|--------|-------|
+| 01 | [**NutriTrack AI**](https://github.com/Prajwal-koundinya/NutriAI-major-project) — AI nutrition assistant for Indian cuisine | `mobile-apps` | React Native · FastAPI · TensorFlow |
+| 02 | [**Diabetic Retinopathy Detection**](https://github.com/Prajwal-koundinya/Diabetic-retinopathy-ensembleApproach) — Ensemble CNN (ResNet + DenseNet + EfficientNet) | `deep-learning` | PyTorch · Flask · OpenCV |
+| 03 | [**F1 Race Visualization**](https://github.com/Prajwal-koundinya/f1-visualization) — Live telemetry replay & race analytics | `mlops` | Python · FastF1 API · Arcade |
+| 04 | [**Plant Disease Detection**](https://github.com/Prajwal-koundinya/Plant-Disease-detection) — Grad-CAM augmented pathology classifier | `deep-learning` | PyTorch · Computer Vision |
+| 05 | [**C-Footprint Optimization**](https://github.com/Prajwal-koundinya/C-Footprint-Optimization) — CO₂e emission modeling for supply chains | `mlops` | ML · React · Netlify |
+| 06 | [**SAM-2 Segmentation**](https://github.com/Prajwal-koundinya/SAM-2) — Multi-prompt object segmentation with SAM 2 | `deep-learning` | PyTorch · Computer Vision |
+| 07 | [**Liver Fibrosis Detection**](https://github.com/Prajwal-koundinya/liver-fabrosis-detection) — Focal loss CNN with interpretable Grad-CAM | `deep-learning` | PyTorch · Medical Imaging |
+| 08 | [**CricBase**](https://github.com/Prajwal-koundinya/CricBase-App) — Offline-first cricket scoring & analytics | `mobile-apps` | Kotlin · Jetpack Compose · Room |
+
+---
+
+## `~/lab-notes`
+
+Brief observations, technical findings, and research thoughts — updated from the field.
+
+```
+[ Nov 2025 ]  os          →  Emergence of AI Operating Systems
+[ Apr 2025 ]  ai          →  MCP Protocol in LLM Applications
+[ Feb 2025 ]  cv          →  Segment Anything in Specialized Domains
+[ Oct 2024 ]  llm-eng     →  Self-hosting LLMs with FastAPI
+```
+
+> Read all lab notes → [pkcode/field-notes](https://prajwal-koundinya-portfolio.vercel.app/)
+
+---
+
+## `~/achievements`
+
+```bash
+$ cat ~/achievements.log
+
+[Nov 2025]  🥇  National Level Technical Paper Presentation — 1st Place
+[Oct 2025]  🥇  Hackshetra National Hackathon — 1st Place (120+ teams)
+[Apr 2025]  🎯  Startup Mahakumbh Delhi — Sole Mysuru qualifier (10,000+ delegates)
+[Dec 2024]  🥈  Ideathon: Idea to Enterprise — 2nd Place (RAG + MCP pitch)
+```
+
+---
+
+## `~/setup`
 
 ### Prerequisites
 
-- **Node.js** 18 or newer
-- **pnpm** (recommended) — [Install from pnpm.io](https://pnpm.io/)
-- **Git** for version control
+```bash
+node  >=18
+pnpm  (recommended)
+git
+```
 
 ### Quick Start
+
 ```bash
-# Clone the repository
-git clone https://github.com/Prajwal-koundinya/pkcode.git
+# clone the lab
+git clone https://github.com/Prajwal-koundinya/portfolio-v1.git
+cd portfolio-v1
 
-# Navigate to project directory
-cd pkcode
-
-# Install dependencies
+# install dependencies
 pnpm install
 
-# Run development server
+# fire up the dev server
 pnpm dev
 ```
 
-Visit `http://localhost:3000` to see the portfolio in action! 🎉
+Open [`http://localhost:3000`](http://localhost:3000) — the lab is live.
 
-### Available Scripts
+### Scripts
 
-| Command | Description |
-|---------|-------------|
-| `pnpm dev` | Start development server |
-| `pnpm build` | Create production build |
-| `pnpm start` | Serve production build |
-| `pnpm lint` | Run ESLint |
-
-### Building for Production
 ```bash
-# Create optimized production build
-pnpm build
-
-# Start production server
-pnpm start
+pnpm dev      # start development server
+pnpm build    # create production build
+pnpm start    # serve production build
+pnpm lint     # run ESLint
 ```
 
 ---
 
-## 🎓 Philosophy
+## `~/philosophy`
 
-> **Build Intelligently. Engineer Responsibly. Deploy Confidently.**
+```
+> Build Intelligently.
+> Engineer Responsibly.
+> Deploy Confidently.
 
-PKCode is not just a portfolio — it's **proof of concept**:
+Every artifact on this site is proof of one thing:
+the ability to move from theoretical understanding
+to a working, deployed system — and own every step in between.
 
-- 📚 **Consistent Learning** — Staying at the cutting edge of AI research
-- 🔧 **Disciplined Execution** — From research paper to production code
-- 🚀 **Readiness to Scale** — Building systems that solve real problems
-
-This platform demonstrates:
-
-1. **Research-to-Production Pipeline** — Translating papers into deployable systems
-2. **End-to-End Ownership** — From data collection to model monitoring
-3. **Explainable AI First** — Interpretable models for high-stakes domains
-4. **Production Excellence** — Reliable, maintainable, scalable code
+  [1]  Research-to-Production Pipeline
+  [2]  End-to-End Ownership
+  [3]  Explainable AI First
+  [4]  Production Excellence
+```
 
 ---
 
-## 📬 Contact
+## `~/connect`
 
-Interested in **collaborating**, **hiring**, or **discussing research opportunities**?
+```bash
+$ git config --global user.signal "send a signal→"
+
+  github    →  github.com/Prajwal-koundinya
+  twitter   →  @Prajwal_K_714
+  linkedin  →  /in/prajwal-kowndinya-7506b4268
+  email     →  prajwalkowndinya@gmail.com
+```
 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Prajwal-koundinya)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prajwal-kowndinya-7506b4268/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/Prajwal_K_714)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:prajwalkowndinya@gmail.com)
 
-**Let's build something intelligent together.**
+*Always interested in collaborations, interesting problems,*
+*and conversations about code, design, and everything in between.*
+
+---
+
+**⚡ PKCode** · forged with `</> + ☕` · `© 2026 — All experiments reserved`
+
+*If this lab inspires you, leave a ⭐ — it fuels the next experiment.*
 
 </div>
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-<div align="center">
-
-### ⭐ If this portfolio inspires you, consider giving it a star!
-
-**Built with 🧠 by Prajwal Koundinya**
-
-*Transforming complex AI research into scalable, real-world solutions.*
-
-</div>
-
-
-=======
-# portfolio-v1
-My personal portfolio. 
->>>>>>> 
-=======
