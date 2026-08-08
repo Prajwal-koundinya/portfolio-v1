@@ -215,10 +215,28 @@ $ git config --global user.signal "send a signal→"
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Prajwal-koundinya)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prajwal-kowndinya-7506b4268/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/Prajwal_K_714)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:prajwalkowndinya@gmail.com)
+| | |
+|---|---|
+| 🌐 **GitHub** | [@Prajwal-koundinya](https://github.com/Prajwal-koundinya) |
+| 💼 **LinkedIn** | [Connect with me](https://www.linkedin.com/in/prajwal-kowndinya-7506b4268/) |
+| 📧 **Email** | [prajwalkowndinya@gmail.com](mailto:prajwalkowndinya@gmail.com) |
+| 🌟 **Portfolio** | [Portfolio Website](https://prajwal-koundinya-portfolio.vercel.app/) |
+
+> 💡 Feel free to reach out if you'd like to collaborate, discuss this project, or just talk about AI and Deep Learning!
+
+---
+
+## 🙏 Credits
+- Model architecture inspired by [Adrian Rosebrock's COVID-19 Face Mask Detector](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)
+- Training data set from [prajnasb/observations](https://github.com/prajnasb/observations/tree/master/experiements/data)
+- Face detector (Caffe model) from [Shiva486/facial_recognition](https://github.com/Shiva486/facial_recognition)
+- Built with [Streamlit](https://www.streamlit.io/)
+
+<div align="center">
+
+⭐️ If you found this project useful, consider giving it a star!
+
+</div>
 
 *Always interested in collaborations, interesting problems,*
 *and conversations about code, design, and everything in between.*
