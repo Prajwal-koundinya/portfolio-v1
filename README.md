@@ -226,8 +226,6 @@ $ git config --global user.signal "send a signal→"
 
 ---
 
-⭐️ If you found this project useful, consider giving it a star!
-
 </div>
 
 *Always interested in collaborations, interesting problems,*
