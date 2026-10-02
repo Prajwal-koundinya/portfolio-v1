@@ -21,15 +21,15 @@ const projects = [
   },
   {
     id: 1,
-    title: "Diabetic Retinopathy Detection - Ensemble AI",
+    title: "CRICBASE - Cricket score tracking",
     description:
-      "Ensemble of ResNet, DenseNet, and EfficientNet to detect diabetic retinopathy. Deployed via Flask. MLOps ready.",
-    tags: ["PyTorch", "CNN-Ensemble", "ResNet", "DenseNet", "EfficientNet", "Flask", "OpenCV"],
-    status: "deep-learning",
-    year: "2024",
-    stars: 10,
+      "A premium, offline-first Android application for recording, managing, and analyzing local cricket matches, built to turn every gully game into a lasting cricket legacy.",
+    tags: ["Android", "Kotlin", "CLEAN + MVVM Architecture", "Jetpack Compose", "MongoDB", "SQLite", "Git"],
+    status: "mobile-apps",
+    year: "2026",
+    stars: 14,
     forks: 4,
-    url: "https://github.com/Prajwal-koundinya/Diabetic-retinopathy-ensembleApproach",
+    url: "https://github.com/Prajwal-koundinya/CricBase-App",
     featured: true,
   },
   {
