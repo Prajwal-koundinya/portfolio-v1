@@ -6,7 +6,7 @@ import { Github, Star, GitFork, ExternalLink, Sparkles } from "lucide-react"
 
 const projects = [
   {
-    id: 0,
+    id: 1,
     title: "NutriTrack AI",
     description:
       "AI-powered mobile nutrition assistant that analyzes food images for calorie and macronutrient estimation. Combines ML-based meal recognition with FastAPI backend inference and personalized dietary insights.",
@@ -17,10 +17,9 @@ const projects = [
     forks: 1,
     url: "https://github.com/Prajwal-koundinya/NutriAI-major-project",
     featured: true,
-    highlight: true,
   },
   {
-    id: 1,
+    id: 0,
     title: "CRICBASE - Cricket score tracking",
     description:
       "A premium, offline-first Android application for recording, managing, and analyzing local cricket matches, built to turn every gully game into a lasting cricket legacy.",
@@ -31,6 +30,7 @@ const projects = [
     forks: 4,
     url: "https://github.com/Prajwal-koundinya/CricBase-App",
     featured: true,
+    highlight: true,
   },
   {
     id: 2,
